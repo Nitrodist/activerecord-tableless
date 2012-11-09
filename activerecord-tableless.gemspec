@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.platform      = Gem::Platform::RUBY
 
-  gem.add_dependency("activerecord", ">=3.2")
+  gem.add_dependency("activerecord", ">=3.1")
 
   gem.add_development_dependency('bundler')
   gem.add_development_dependency('rake')
